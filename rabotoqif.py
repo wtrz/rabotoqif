@@ -42,7 +42,7 @@ def convert(ifile):
         
         trans_type = '!Type:Bank'    
         #trans_fromaccount = str('N' + words_list[0])
-        trans_date = str('D' + (words_list[2][6:8]) + '/' + (words_list[2][4:6]) + '/' + (words_list[2][2:4]))
+        trans_date = str('D' + (words_list[2][6:8]) + '/' + (words_list[2][4:6]) + '/' + (words_list[2][0:4]))
         
         if words_list[3] == 'D': 
             sign = '-' 
