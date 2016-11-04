@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 #!/usr/bin/env python
 #Python 3.5 script 20161101 V3
 #Author: Wouter Dunnes
