@@ -3,6 +3,7 @@
 #Author: Wouter Dunnes
 #Purpose: Convert Rabobank's  "transactions.txt" into Homebank qif format
 #reference QIF format: https://en.wikipedia.org/wiki/Quicken_Interchange_Format
+#---------
 
 def convert(ifile):
     import time
